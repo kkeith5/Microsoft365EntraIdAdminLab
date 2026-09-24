@@ -52,5 +52,6 @@ Group membership auto-populated by the dynamic rule: <br/>
 <br />
 <br />
 Helpdesk Administrator role assigned to a test user: <br/>
-<img src="screenshots/06-role-assignment.png" height="80%" width="80%" alt="Role assignment"/>
+<img src="screenshots/06-user-role-helpdesk.png" height="80%" width="80%" alt="Role assignment"/>
+<img src="screenshots/06-user-helpdesk-role.png" height="80%" width="80%" alt="Role assignment"/>
 </p>
