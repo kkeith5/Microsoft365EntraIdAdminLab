@@ -25,36 +25,37 @@ This project builds out a simulated corporate identity environment in Microsoft 
 - <b>Microsoft Entra ID</b> tenant (Microsoft 365 E5 / Entra ID P2 trial)
 - <b>PowerShell 7</b>
 
-<h2>Scripts </h2>  
+<h2>Scripts</h2>
 
 - [`create-users.ps1`](scripts/create-users.ps1) — bulk-creates users in Entra ID from a CSV using Microsoft Graph PowerShell
 - [`add-group-members.ps1`](scripts/add-group-members.ps1) — assigns users to security groups from a CSV
 - [`update-user-attributes.ps1`](scripts/update-user-attributes.ps1) — updates Country, Department and UsageLocation for existing users
-  
+
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Users bulk-created via PowerShell and Microsoft Graph: <br/>
-<img src="screenshots/01-user-creation.png" height="80%" width="80%" alt="PowerShell user creation"/>
-<br />
 
-<br />
-Microsoft 365 and security groups created: <br/>
-<img src="screenshots/03-sg-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
-  <img src="screenshots/03-m365-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
-<br />
-<br />
-Dynamic membership rule configured (Country and Department): <br/>
+<h3>1. Users bulk-created via PowerShell and Microsoft Graph:</h3>
+<img src="screenshots/01-user-creation.png" height="80%" width="80%" alt="PowerShell user creation"/>
+<br /><br />
+
+<h3>2. Microsoft 365 and security groups created:</h3>
+<img src="screenshots/03-sg-groups.png" height="80%" width="80%" alt="Security groups"/>
+<img src="screenshots/03-m365-groups.png" height="80%" width="80%" alt="M365 groups"/>
+<br /><br />
+
+<h3>3. Dynamic membership rule configured (Country and Department):</h3>
 <img src="screenshots/04-dynamic-rule.png" height="80%" width="80%" alt="Dynamic group rule"/>
-  <img src="screenshots/04-dynamic-accounting-rule.png" height="80%" width="80%" alt="Dynamic group rule"/>
-<br />
-<br />
-Group membership auto-populated by the dynamic rule: <br/>
+<img src="screenshots/04-dynamic-accounting-rule.png" height="80%" width="80%" alt="Dynamic group rule - accounting"/>
+<br /><br />
+
+<h3>4. Group membership auto-populated by the dynamic rule:</h3>
 <img src="screenshots/05-dynamic-membership.png" height="80%" width="80%" alt="Dynamic group membership"/>
-  <img src="screenshots/05-dynamic-user-membership.png" height="80%" width="80%" alt="Dynamic group membership"/>
+<img src="screenshots/05-dynamic-user-membership.png" height="80%" width="80%" alt="Dynamic group membership - user view"/>
+
+</p>
 <br />
-<br />
-Helpdesk Administrator role assigned to a test user: <br/>
+<h3>5. Helpdesk Administrator role assigned to a test user: <h3/><br/>
 <img src="screenshots/06-user-role-helpdesk.png" height="80%" width="80%" alt="Role assignment"/>
 <img src="screenshots/06-user-helpdesk-role.png" height="80%" width="80%" alt="Role assignment"/>
 </p>
