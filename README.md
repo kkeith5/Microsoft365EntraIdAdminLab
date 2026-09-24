@@ -31,10 +31,7 @@ This project builds out a simulated corporate identity environment in Microsoft 
 Users bulk-created via PowerShell and Microsoft Graph: <br/>
 <img src="screenshots/01-user-creation.png" height="80%" width="80%" alt="PowerShell user creation"/>
 <br />
-<br />
-Users created in Entra ID: <br/>
-<img src="screenshots/02-entra-users.png" height="80%" width="80%" alt="Entra ID users list"/>
-<br />
+
 <br />
 Microsoft 365 and security groups created: <br/>
 <img src="screenshots/03-sg-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
