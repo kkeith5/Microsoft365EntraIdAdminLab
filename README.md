@@ -37,15 +37,18 @@ Users created in Entra ID: <br/>
 <br />
 <br />
 Microsoft 365 and security groups created: <br/>
-<img src="screenshots/03-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
+<img src="screenshots/03-sg-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
+  <img src="screenshots/03-m365-groups.png" height="80%" width="80%" alt="M365 and security groups"/>
 <br />
 <br />
 Dynamic membership rule configured (Country and Department): <br/>
 <img src="screenshots/04-dynamic-rule.png" height="80%" width="80%" alt="Dynamic group rule"/>
+  <img src="screenshots/04-dynamic-accounting-rule.png" height="80%" width="80%" alt="Dynamic group rule"/>
 <br />
 <br />
 Group membership auto-populated by the dynamic rule: <br/>
 <img src="screenshots/05-dynamic-membership.png" height="80%" width="80%" alt="Dynamic group membership"/>
+  <img src="screenshots/05-dynamic-user-membership.png" height="80%" width="80%" alt="Dynamic group membership"/>
 <br />
 <br />
 Helpdesk Administrator role assigned to a test user: <br/>
