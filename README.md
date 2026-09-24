@@ -25,6 +25,12 @@ This project builds out a simulated corporate identity environment in Microsoft 
 - <b>Microsoft Entra ID</b> tenant (Microsoft 365 E5 / Entra ID P2 trial)
 - <b>PowerShell 7</b>
 
+<h2>Scripts </h2>  
+
+- [`create-users.ps1`](scripts/create-users.ps1) — bulk-creates users in Entra ID from a CSV using Microsoft Graph PowerShell
+- [`add-group-members.ps1`](scripts/add-group-members.ps1) — assigns users to security groups from a CSV
+- [`update-user-attributes.ps1`](scripts/update-user-attributes.ps1) — updates Country, Department and UsageLocation for existing users
+  
 <h2>Lab walk-through:</h2>
 
 <p align="center">
